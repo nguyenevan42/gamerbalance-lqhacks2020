@@ -7,13 +7,13 @@ To run the website it was meant to be run, make sure to install Python and the F
 
 Team members:
 
-1. Walid Akhras
+* Walid Akhras
 
-2. Melvin Chiem-Ngoy
+* Melvin Chiem-Ngoy
 
-3. Nicole Nguyen
+* Nicole Nguyen
 
-4. Evan Nguyen
+* Evan Nguyen
 
 
 The use of the Liquid logo is not meant to infringe on any copyrights, but rather indicate the project was meant to be used as submission for LiquidHacks 2020.
