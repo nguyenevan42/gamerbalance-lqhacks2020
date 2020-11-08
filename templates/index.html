@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="../static/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/nutritionopen.css" />
+    <link rel="stylesheet" type="text/css" href="../static/exerciseopen.css" />
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <link rel="stylesheet" type="text/css" href="../static/breakopen.css" />
+    <style>
+      @font-face {
+        font-family: "Inter-SemiBold";
+        src: url("https://anima-uploads.s3.amazonaws.com/5e5769f6474ea60435944873/Inter.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SegoeUI-Regular";
+        src: url("https://anima-uploads.s3.amazonaws.com/5b1e8d8e336c4b0009507857/segoeui.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Inter-Regular";
+        src: url("https://anima-uploads.s3.amazonaws.com/5e5769f6474ea60435944873/Inter.otf") format("opentype");
+      }
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="anima-container-center-horizontal">
+      <div class="index anima-screen">
+        <img
+          class="light-blue--3943096-1-C61RwL"
+          src="../static/light-blue-gradient-background-graphics-3943096-1-1@1x.png"
+        />
+        <div class="header-C61RwL">
+          <div class="rectangle-10-IcPKRJ"></div>
+          <div class="rectangle-3-IcPKRJ"></div>
+          <div class="dashboard-IcPKRJ font-class-2">dashboard</div>
+        </div>
+        <div class="header-VMr6Om">
+          <div class="click-each-st-in-game-Z0qGer font-class-1">
+            click each picture for tips to keep your body in shape so you can be your best in-game.
+          </div>
+        </div>
+        <div class="header-mzXdH9">
+          <img class="path-18-TZLg6Q" src="../static/path-18@1x.png" />
+          <div class="bare-necessities-TZLg6Q font-class-2">bare necessities</div>
+        </div>
+        <div class="header-QxM5SU">
+          <div class="group-5-KP5Iyf">
+            <div class="a-water-bo-ure-checks-s7uqxZ font-class-1">
+              • a water bottle<br /><br />• healthy snacks<br /><br />• adequate lighting<br /><br />• posture checks
+            </div>
+          </div>
+        </div>
+        <div class="side-menu-C61RwL">
+          <img class="rectangle-1-xMpdvS" src="../static/rectangle-1-1@1x.png" />
+          <img class="rectangle-2-xMpdvS" src="../static/rectangle-2@1x.png" />
+          <a href="gamelist.html">
+            <div class="group-1-xMpdvS">
+              <a href="gamelist.html" onclick="window.event.stopPropagation()">
+                <div class="get-fit-FySLuy font-class-1">get fit</div></a
+              >
+              <a href="gamelist.html" onclick="window.event.stopPropagation()"
+                ><img class="analytics-FySLuy" src="../static/analytics-1@1x.png"
+              /></a></div
+          ></a>
+          <div class="group-4-xMpdvS">
+            <div class="dashboard-HTCboW font-class-1">dashboard</div>
+            <img class="metrics-HTCboW" src="../static/metrics-1@1x.png" />
+          </div>
+          <a href="faq.html">
+            <div class="group-3-xMpdvS">
+              <div class="faq-yDzyW8 font-class-1">faq</div>
+              <img class="sound-wave-yDzyW8" src="../static/path-14-1@1x.png" /></div
+          ></a>
+          <div class="liquid-hacks-2020-xMpdvS font-class-1">LiquidHacks 2020</div>
+        </div>
+        <a href="gamelist.html">
+          <div class="group-6-C61RwL anima-smart-layers-pointers">
+            <img class="rectangle-5-PIEh7b" src="../static/rectangle-5@1x.png" />
+            <img class="rectangle-7-PIEh7b" src="../static/rectangle-7@1x.png" />
+            <div class="component-2-1-PIEh7b">
+              <div class="ready-lets-et-started-oHmAUx font-class-2">ready? lets get started.</div>
+            </div>
+            <img class="x5-2-arrow--ransparent-PIEh7b" src="../static/5-2-arrow-transparent@1x.png" /></div
+        ></a>
+        <div class="group-7-C61RwL">
+          <a href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');"
+            ><img
+              class="healthy-ea-k-1200x628-SO40Oe"
+              src="../static/healthy-eating-ingredients-1200x628-facebook-1200x628@1x.png"
+          /></a>
+          <a href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');">
+            <div class="component-8-1-SO40Oe"></div
+          ></a>
+          <a href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');">
+            <div class="nutrition-SO40Oe font-class-1">nutrition</div></a
+          >
+        </div>
+        <a href="javascript:AnimaShowOverlay('breakopen', 'anima-animate-appear');">
+          <div class="group-8-C61RwL">
+            <a
+              href="javascript:AnimaShowOverlay('breakopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+              ><img class="upper-extr-for-gamers-3cZhlu" src="../static/upper-extremity-injury-prevention-for-gamers@1x.png"
+            /></a>
+            <a
+              href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+            >
+              <div class="component-8-2-3cZhlu"></div
+            ></a>
+            <a
+              href="javascript:AnimaShowOverlay('breakopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+            >
+              <div class="regular-breaks-3cZhlu font-class-1">regular breaks</div></a
+            >
+          </div></a
+        >
+        <a href="javascript:AnimaShowOverlay('exerciseopen', 'anima-animate-appear');">
+          <div class="group-9-C61RwL">
+            <a
+              href="javascript:AnimaShowOverlay('exerciseopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+              ><img class="carpal-squ-e-cc08bf63-9dtg3L" src="../static/carpal-squeeze-cc08bf63@1x.png"
+            /></a>
+            <a
+              href="javascript:AnimaShowOverlay('exerciseopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+            >
+              <div class="component-8-3-9dtg3L"></div
+            ></a>
+            <a
+              href="javascript:AnimaShowOverlay('exerciseopen', 'anima-animate-appear');"
+              onclick="window.event.stopPropagation()"
+            >
+              <div class="physical-checks-9dtg3L font-class-1">physical checks</div></a
+            >
+          </div></a
+        >
+        <img class="teamliquidlogo2017-C61RwL" src="../static/team-liquid-logo-2017@1x.png" />
+      </div>
+    </div>
+    <div id="overlay-breakopen" class="anima-overlay" style="min-height: 1080px">
+      <div class="anima-container-center-horizontal">
+        <div class="breakopen anima-screen"   , '_self');">
+          <div class="rectangle-8-C61RwL"></div>
+          <img class="upper-extr-for-gamers-C61RwL" src="../static/upper-extremity-injury-prevention-for-gamers-1@1x.png" />
+          <a
+            href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');"
+            onclick="window.event.stopPropagation()"
+          >
+            <div class="component-8-5-C61RwL"></div
+          ></a>
+          <div class="x-take-a-sm-as-a-break-C61RwL font-class-1">
+            ○ Take a small walk around your room when in queue<br />○ Rest your eyes<br />○ Step up and stretch once in
+            a while<br />○ Take the opportunity to rest after an intense game<br />○ Doing house chores also counts as a
+            break<br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-breakopen";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var clickedDiv = e.toElement || e.target;
+          if (clickedDiv.parentElement.id == overlay_id) {
+            AnimaHideOverlay("breakopen", "anima-animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-exerciseopen" class="anima-overlay" style="min-height: 1080px">
+      <div class="anima-container-center-horizontal">
+        <div class="exerciseopen anima-screen"   , '_self');">
+          <div class="rectangle-8-C61RwL"></div>
+          <img class="carpal-squ-e-cc08bf63-C61RwL" src="../static/carpal-squeeze-cc08bf63-1@1x.png" />
+          <a
+            href="javascript:AnimaShowOverlay('nutritionopen', 'anima-animate-appear');"
+            onclick="window.event.stopPropagation()"
+          >
+            <div class="component-8-6-C61RwL"></div
+          ></a>
+          <div class="x-take-regu-er-outside-C61RwL font-class-1">
+            ○ Take regular breaks to stretch and breathe<br />○ Take a small walk in between matches!<br />○ Move your
+            wrists to avoid carpal tunnel syndrome<br />○ Stretch your legs! <br />○ Take a breather outside<br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-exerciseopen";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var clickedDiv = e.toElement || e.target;
+          if (clickedDiv.parentElement.id == overlay_id) {
+            AnimaHideOverlay("exerciseopen", "anima-animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-nutritionopen" class="anima-overlay" style="min-height: 1080px">
+      <div class="anima-container-center-horizontal">
+        <div class="nutritionopen anima-screen"   , '_self');">
+          <div class="rectangle-8-C61RwL"></div>
+          <img
+            class="healthy-ea-k-1200x628-C61RwL"
+            src="../static/healthy-eating-ingredients-1200x628-facebook-1200x628-1@1x.png"
+          />
+          <div class="component-8-4-C61RwL"></div>
+          <div class="x-try-to-ea-er-is-king-C61RwL font-class-1">
+            ○ Try to eat 3 meals a day<br />○ Eat a good amount of protein<br />○ Grains, nuts, and fruits are great
+            snacks!<br />○ Try to limit junk food, especially energy drinks <br />○ Water is king!<br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-nutritionopen";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var clickedDiv = e.toElement || e.target;
+          if (clickedDiv.parentElement.id == overlay_id) {
+            AnimaHideOverlay("nutritionopen", "anima-animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <script>
+      AnimaShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("anima-animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.AnimaloadAsyncSrc != undefined) {
+          AnimaloadAsyncSrc();
+        }
+      };
+      AnimaHideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("anima-animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

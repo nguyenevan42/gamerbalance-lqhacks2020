@@ -1,0 +1,600 @@
+/* screen - gamelist */
+
+.font-class-1 {
+  font-family: 'Inter-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-2 {
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.gamelist {
+  background-color: var(--white);
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+.gamelist .analytics-FySLuy {
+  background-color: transparent;
+  height: 40px;
+  left: 6px;
+  position: absolute;
+  top: -2px;
+  width: 40px;
+}
+.gamelist .count-VZUfM9 {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .dashboard-HTCboW {
+  background-color: transparent;
+  bottom: -4px;
+  color: var(--manatee);
+  font-size: 20px;
+  height: 26px;
+  left: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .ellipse-1-Av2nI9 {
+  background-color: transparent;
+  bottom: 2px;
+  height: 19px;
+  left: -2px;
+  position: absolute;
+  width: 19px;
+}
+.gamelist .faq-yDzyW8 {
+  background-color: transparent;
+  bottom: -4px;
+  color: var(--manatee);
+  font-size: 20px;
+  height: 26px;
+  left: 5px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% - 8px);
+}
+.gamelist .get-fit-FySLuy {
+  background-color: transparent;
+  bottom: -4px;
+  color: rgba(73,81,114,1.0);
+  font-size: 20px;
+  height: 26px;
+  left: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .get-fit-IcPKRJ {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 51px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 51px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .get-fit-wh-get-ranked-Z0qGer {
+  background-color: transparent;
+  color: var(--manatee);
+  font-size: 20px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .group-1-xMpdvS {
+  background-color: transparent;
+  height: 82px;
+  position: absolute;
+  right: calc(45.07% - 27px);
+  top: calc(21.24% - 17px);
+  width: 59px;
+}
+.gamelist .group-3-xMpdvS {
+  background-color: transparent;
+  height: 72px;
+  left: calc(50.00% - 21px);
+  position: absolute;
+  top: calc(35.42% - 26px);
+  width: 42px;
+}
+.gamelist .group-4-xMpdvS {
+  background-color: transparent;
+  height: 89px;
+  position: absolute;
+  right: calc(45.16% - 49px);
+  top: 60px;
+  width: 108px;
+}
+.gamelist .header-2P4qUJ {
+  background-color: transparent;
+  height: 30px;
+  left: 292px;
+  position: absolute;
+  top: 226px;
+  width: 379px;
+}
+.gamelist .header-C61RwL {
+  background-color: transparent;
+  height: 61px;
+  left: 292px;
+  position: absolute;
+  top: 79px;
+  width: 153px;
+}
+.gamelist .header-HlKRTo {
+  background-color: transparent;
+  height: 30px;
+  left: 897px;
+  position: absolute;
+  top: 305px;
+  width: 97px;
+}
+.gamelist .header-J1YQmd {
+  background-color: transparent;
+  height: 24px;
+  left: 294px;
+  position: absolute;
+  top: 626px;
+  width: 649px;
+}
+.gamelist .header-QxM5SU {
+  background-color: transparent;
+  height: 30px;
+  left: 1085px;
+  position: absolute;
+  top: 684px;
+  width: 237px;
+}
+.gamelist .header-VMr6Om {
+  background-color: transparent;
+  height: 24px;
+  left: 292px;
+  position: absolute;
+  top: 159px;
+  width: 278px;
+}
+.gamelist .header-VkPPtx {
+  background-color: transparent;
+  height: 30px;
+  left: 1053px;
+  position: absolute;
+  top: 226px;
+  width: 151px;
+}
+.gamelist .header-YWzA7M {
+  background-color: transparent;
+  height: 30px;
+  left: 1281px;
+  position: absolute;
+  top: 224px;
+  width: 165px;
+}
+.gamelist .header-a5WPlX {
+  background-color: transparent;
+  height: 30px;
+  left: 709px;
+  position: absolute;
+  top: 226px;
+  width: 170px;
+}
+.gamelist .header-mzXdH9 {
+  background-color: transparent;
+  height: 30px;
+  left: 292px;
+  position: absolute;
+  top: 684px;
+  width: 109px;
+}
+.gamelist .header-qr8e7q {
+  background-color: transparent;
+  height: 61px;
+  left: 292px;
+  position: absolute;
+  top: 546px;
+  width: 441px;
+}
+.gamelist .league-of--egends-bar-C61RwL {
+  background-color: transparent;
+  height: 226px;
+  left: 1070px;
+  pointer-events: auto;
+  position: absolute;
+  top: 719px;
+  transition: all 0.2s ease;
+  width: 749px;
+}
+.gamelist .league-of--egends-bar-C61RwL:hover {
+
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.gamelist .league-of-legends-KP5Iyf {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .light-blue--3943096-1-C61RwL {
+  background-color: transparent;
+  height: 1304px;
+  left: -18px;
+  position: absolute;
+  top: -160px;
+  width: 1956px;
+}
+.gamelist .line-1-WzUO9t {
+  background-color: transparent;
+  bottom: 2px;
+  height: 30px;
+  left: calc(19.44% - 1px);
+  position: absolute;
+  width: 4px;
+}
+.gamelist .line-2-WzUO9t {
+  background-color: transparent;
+  bottom: 2px;
+  height: 20px;
+  left: calc(44.44% - 2px);
+  position: absolute;
+  width: 4px;
+}
+.gamelist .line-3-WzUO9t {
+  background-color: transparent;
+  bottom: 2px;
+  height: 30px;
+  position: absolute;
+  right: calc(30.56% - 1px);
+  width: 4px;
+}
+.gamelist .line-4-WzUO9t {
+  background-color: transparent;
+  bottom: 2px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  width: 4px;
+}
+.gamelist .line-5-WzUO9t {
+  background-color: transparent;
+  height: 100%;
+  left: -2px;
+  position: absolute;
+  top: -2px;
+  width: 4px;
+}
+.gamelist .line-6-Av2nI9 {
+  background-color: transparent;
+  bottom: calc(48.16% - 7px);
+  height: 14px;
+  left: calc(38.61% - 6px);
+  position: absolute;
+  width: 14px;
+}
+.gamelist .liq-hack2020-C61RwL {
+  background-color: transparent;
+  height: 1080px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.gamelist .liquid-hacks-2020-C61RwL {
+  background-color: transparent;
+  color: var(--manatee);
+  font-size: 20px;
+  height: auto;
+  left: 9px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .metrics-HTCboW {
+  background-color: transparent;
+  height: 46px;
+  position: absolute;
+  right: calc(47.91% - 22px);
+  top: -2px;
+  width: 46px;
+}
+.gamelist .path-13-Av2nI9 {
+  background-color: transparent;
+  height: 38px;
+  position: absolute;
+  right: 2px;
+  top: -1px;
+  width: 38px;
+}
+.gamelist .path-14-C9w9FD {
+  background-color: transparent;
+  height: 100%;
+  left: -2px;
+  position: absolute;
+  top: -1px;
+  width: 100%;
+}
+.gamelist .pushup-timer-z9NKSs {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .rectangle-1-xMpdvS {
+  background-color: transparent;
+  height: calc(100.00% + 78px);
+  left: -39px;
+  position: absolute;
+  top: -36px;
+  width: calc(100.00% + 78px);
+}
+.gamelist .rectangle-2-xMpdvS {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 215px;
+  left: -22px;
+  position: absolute;
+  top: calc(17.23% - 37px);
+  width: calc(100.00% + 44px);
+}
+.gamelist .rectangle-9rWsxM {
+  background-color: transparent;
+  height: calc(100.00% + 78px);
+  left: -39px;
+  position: absolute;
+  top: -36px;
+  width: calc(100.00% + 78px);
+}
+.gamelist .rectangle-Qwhz6x {
+  background-color: transparent;
+  height: calc(100.00% + 78px);
+  left: -39px;
+  position: absolute;
+  top: -36px;
+  width: calc(100.00% + 78px);
+}
+.gamelist .screen-break-O71x9y {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .side-menu-C61RwL {
+  background-color: transparent;
+  height: 1080px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 201px;
+}
+.gamelist .sound-wave-yDzyW8 {
+  background-color: transparent;
+  height: 38px;
+  left: -2px;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+.gamelist .span0-9TJ7n6 {
+  color: rgba(17,25,60,1.0);
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.gamelist .span1-9TJ7n6 {
+  color: rgba(17,25,60,0.439);
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.gamelist .stretch-ti-d-and-body-xS9RCs {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-family: "Inter", Helvetica, Arial, serif;
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .teamliquidlogo2017-C61RwL {
+  background-color: transparent;
+  height: 96px;
+  left: 53px;
+  position: absolute;
+  top: 934px;
+  width: 96px;
+}
+.gamelist .text-boxstretch-C61RwL {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-size: 15px;
+  height: auto;
+  left: 294px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 277px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .textboxpuc-C61RwL {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-size: 15px;
+  height: auto;
+  left: 897px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 353px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .textboxputime-C61RwL {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-size: 15px;
+  height: auto;
+  left: 709px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 277px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .textboxsb-C61RwL {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-size: 15px;
+  height: auto;
+  left: 1281px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 275px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .textboxwb-C61RwL {
+  background-color: transparent;
+  color: var(--tangaroa-2);
+  font-size: 15px;
+  height: auto;
+  left: 1053px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 277px;
+  white-space: nowrap;
+  width: auto;
+}
+.gamelist .try-our-cu-orite-game-rhTVpD {
+  background-color: transparent;
+  color: var(--manatee);
+  font-size: 20px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .valorant-TZLg6Q {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .valorant-bar-C61RwL {
+  background-color: transparent;
+  height: 226px;
+  left: 292px;
+  pointer-events: auto;
+  position: absolute;
+  top: 719px;
+  transition: all 0.2s ease;
+  width: 750px;
+}
+.gamelist .valorant-bar-C61RwL:hover {
+
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.gamelist .water-break-67dnVx {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 25px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.gamelist .workout-routines-x3GL5u {
+  background-color: transparent;
+  color: var(--tangaroa);
+  font-size: 51px;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  line-height: 51px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+:root {
+  --manatee: rgba(137,144,173,1.0);
+  --portage: rgba(145,156,222,1.0);
+  --tangaroa: rgba(17,25,60,1.0);
+  --tangaroa-2: rgba(17,25,60,0.439);
+  --white: rgba(255,255,255,1.0);
+}

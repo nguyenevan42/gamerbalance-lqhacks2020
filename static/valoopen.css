@@ -1,0 +1,76 @@
+/* screen - valoopen */
+
+.font-class-1 {
+  font-family: 'Inter-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-2 {
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.valoopen {
+  background-color: transparent;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+.valoopen .path-19-C61RwL {
+  background-color: transparent;
+  height: 192px;
+  left: 316px;
+  position: absolute;
+  top: 735px;
+  width: 700px;
+}
+.valoopen .rectangle-8-C61RwL {
+  background-color: transparent;
+  height: 1177px;
+  left: -77px;
+  position: absolute;
+  top: -38px;
+  width: 2067px;
+}
+.valoopen .rectangle-9rWsxM {
+  background-color: transparent;
+  height: calc(100.00% + 78px);
+  left: -39px;
+  position: absolute;
+  top: -36px;
+  width: calc(100.00% + 78px);
+}
+.valoopen .run-a-lap--every-kill-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 28px;
+  height: auto;
+  left: 356px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 789px;
+  white-space: nowrap;
+  width: auto;
+}
+.valoopen .valorant-bar-C61RwL {
+  background-color: transparent;
+  height: 226px;
+  left: 292px;
+  pointer-events: auto;
+  position: absolute;
+  top: 719px;
+  transition: all 0.2s ease;
+  width: 750px;
+}
+.valoopen .valorant-bar-C61RwL:hover {
+
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+:root {
+  --manatee: rgba(137,144,173,1.0);
+  --portage: rgba(145,156,222,1.0);
+  --tangaroa: rgba(17,25,60,1.0);
+  --tangaroa-2: rgba(17,25,60,0.439);
+  --white: rgba(255,255,255,1.0);
+}

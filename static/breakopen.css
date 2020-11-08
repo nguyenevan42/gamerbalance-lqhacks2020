@@ -1,0 +1,65 @@
+/* screen - breakopen */
+
+.breakopen {
+  background-color: transparent;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+.breakopen .component-8-5-C61RwL {
+  background-color: rgba(129,140,188,1.0);
+  border-radius: 18px;
+  height: 381px;
+  left: 759px;
+  opacity: 0.9;
+  position: absolute;
+  top: 175px;
+  width: 577px;
+}
+.breakopen .rectangle-8-C61RwL {
+  background-color: transparent;
+  height: 1177px;
+  left: -89px;
+  position: absolute;
+  top: -16px;
+  width: 2067px;
+}
+.breakopen .upper-extr-for-gamers-C61RwL {
+  background-color: transparent;
+  border-radius: 45px;
+  height: 415px;
+  left: 744px;
+  position: absolute;
+  top: 158px;
+  width: 607px;
+}
+.breakopen .x-take-a-sm-as-a-break-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 786px;
+  line-height: 60px;
+  position: absolute;
+  text-align: left;
+  top: 202px;
+  white-space: nowrap;
+  width: auto;
+}
+.font-class-1 {
+  font-family: 'Inter-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-2 {
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+:root {
+  --manatee: rgba(137,144,173,1.0);
+  --portage: rgba(145,156,222,1.0);
+  --tangaroa: rgba(17,25,60,1.0);
+  --tangaroa-2: rgba(17,25,60,0.439);
+  --white: rgba(255,255,255,1.0);
+}

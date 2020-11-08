@@ -1,0 +1,65 @@
+/* screen - nutritionopen */
+
+.font-class-1 {
+  font-family: 'Inter-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-2 {
+  font-family: 'Inter-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.nutritionopen {
+  background-color: transparent;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+.nutritionopen .component-8-4-C61RwL {
+  background-color: rgba(139,152,226,1.0);
+  border-radius: 18px;
+  height: 381px;
+  left: 252px;
+  opacity: 0.9;
+  position: absolute;
+  top: 202px;
+  width: 577px;
+}
+.nutritionopen .healthy-ea-k-1200x628-C61RwL {
+  background-color: transparent;
+  border-radius: 42px;
+  height: 415px;
+  left: 235px;
+  position: absolute;
+  top: 182px;
+  width: 607px;
+}
+.nutritionopen .rectangle-8-C61RwL {
+  background-color: transparent;
+  height: 1177px;
+  left: -60px;
+  position: absolute;
+  top: -35px;
+  width: 2067px;
+}
+.nutritionopen .x-try-to-ea-er-is-king-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 279px;
+  line-height: 60px;
+  position: absolute;
+  text-align: left;
+  top: 229px;
+  white-space: nowrap;
+  width: auto;
+}
+:root {
+  --manatee: rgba(137,144,173,1.0);
+  --portage: rgba(145,156,222,1.0);
+  --tangaroa: rgba(17,25,60,1.0);
+  --tangaroa-2: rgba(17,25,60,0.439);
+  --white: rgba(255,255,255,1.0);
+}
