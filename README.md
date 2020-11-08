@@ -17,3 +17,6 @@ Team members:
 
 
 The use of the Liquid logo is not meant to infringe on any copyrights, but rather indicate the project was meant to be used as submission for LiquidHacks 2020.
+![dashboard](https://raw.githubusercontent.com/nguyenevan42/swiss-project/main/preview/dashboard.PNG)
+![get_fit](https://raw.githubusercontent.com/nguyenevan42/swiss-project/main/preview/get_fit.PNG)
+![faq](https://raw.githubusercontent.com/nguyenevan42/swiss-project/main/preview/faq.PNG)
